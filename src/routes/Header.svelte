@@ -19,13 +19,13 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Главная</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+			<li aria-current={$page.url.pathname === '/buy' ? 'page' : undefined}>
 				<a href="/buy">Купить</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/Sell">Продать</a>
+			<li aria-current={$page.url.pathname.startsWith('/sell') ? 'page' : undefined}>
+				<a href="/sell">Продать</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
+			<li aria-current={$page.url.pathname.startsWith('/profile') ? 'page' : undefined}>
 				<a href="/profile">Профиль</a>
 			</li>
 		</ul>
